@@ -1,14 +1,15 @@
 import * as React from 'react'
+import Layout from "../components/layout";
 
 const IndexPage = () => {
-  return (
-  <main>
-    <h1>Chris Taylor developer PWA demo.</h1>
-    <p>Web engineering for business.</p>
-  </main>
-  )
+    return (
+        <Layout pageTitle="Home Page">
+            <p>Chris Taylor developer PWA demo.</p>
+            <p>Web engineering for business.</p>
+        </Layout>
+    )
 }
 
-export const Head = () => <title>Home Page </title>
+export const Head = () => <title>Home Page</title>
 
 export default IndexPage
