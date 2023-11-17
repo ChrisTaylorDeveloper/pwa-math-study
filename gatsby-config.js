@@ -48,5 +48,17 @@ module.exports = {
             },
         },
         `gatsby-plugin-sharp`,
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `Demo PWA - Chris Taylor Developer`,
+                short_name: `Demo PWA - CTD`,
+                start_url: `/`,
+                background_color: `#f7f0eb`,
+                theme_color: `#a2466c`,
+                display: `standalone`,
+                icon: `src/images/icon.png`
+            },
+        },
     ],
 }
